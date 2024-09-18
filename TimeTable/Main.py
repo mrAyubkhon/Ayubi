@@ -4,7 +4,7 @@ from flask import Flask, request  # Импортируем Flask для рабо
 from telebot import types
 
 # Создаём объект бота с использованием токена
-TOKEN = os.getenv("TELEGRAM_TOKEN", '7365761529:AAFYeDS9e4uWiTk9xBxDebdfs0XEX1BOcPg')  # Подключаем токен из переменных окружения для безопасности
+TOKEN = os.getenv('7365761529:AAFYeDS9e4uWiTk9xBxDebdfs0XEX1BOcPg')  # Подключаем токен из переменных окружения для безопасности
 bot = telebot.TeleBot(TOKEN)
 
 # Создаем Flask-приложение
